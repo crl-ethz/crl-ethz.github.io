@@ -47,7 +47,7 @@ This repo is based on [al-folio](https://github.com/alshedivat/al-folio) theme f
 
     Later, you can link this website to the bib information in the `_bibliography/papers.bib` file by adding the `website` field to your bib entry.
 
-    Regarding what you can do in the `md` file, you may refer to the samples [here](https://github.com/alshedivat/al-folio/tree/main/_pages).
+    Regarding what you can do in the `md` file, you may refer to the samples [here](https://github.com/alshedivat/al-folio/tree/main/_posts).
 
 2. Once you have created your post, you can preview the changes on `http://localhost:8080/`.
    If you are certain that all information is correct, you can push the changes to the repository. Within a few minutes, the changes will be live on the actual website.

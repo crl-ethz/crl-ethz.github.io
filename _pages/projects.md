@@ -5,7 +5,7 @@ permalink: /robots/
 description: A growing collection of the robots in our lab.
 nav: true
 nav_order: 3
-display_categories: [humanoids&bipeds, quadrupeds, manipulators, retired]
+display_categories: [humanoids&bipeds, quadrupeds, manipulators, wheeled, retired]
 horizontal: false
 ---
 
