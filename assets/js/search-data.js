@@ -109,27 +109,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/yumi/";
             },},{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/103164288", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/crl_ethz", "_blank");
-        },
-      },{
-        id: 'social-youtube',
-        title: 'YouTube',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://youtube.com/@crl_ethz", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
