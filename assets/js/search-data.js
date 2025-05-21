@@ -14,14 +14,14 @@ ninja.data = [{
           description: "We list available projects related to our robotic research topics in our lab. If you are looking for a project more related to computer graphics, please check https://crl.ethz.ch/StudentProject/index.html.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-robots",
           title: "robots",
           description: "A growing collection of the robots in our lab.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/robots/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
