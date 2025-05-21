@@ -1,7 +1,7 @@
 ---
 layout: page
 title: robots
-permalink: /projects/
+permalink: /robots/
 description: A growing collection of the robots in our lab.
 nav: true
 nav_order: 3
