@@ -43,11 +43,21 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aliengo/";
+            },},{id: "projects-aloha-v1",
+          title: 'Aloha V1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aloha/";
             },},{id: "projects-b2",
           title: 'B2',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/b2/";
+            },},{id: "projects-franka",
+          title: 'Franka',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/franka/";
             },},{id: "projects-g1",
           title: 'G1',
           description: "",
@@ -63,11 +73,21 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/go2/";
+            },},{id: "projects-husky",
+          title: 'Husky',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/husky/";
             },},{id: "projects-laikago",
           title: 'Laikago',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/laikago/";
+            },},{id: "projects-rc-car",
+          title: 'RC Car',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rccar/";
             },},{id: "projects-spot",
           title: 'Spot',
           description: "",
@@ -78,6 +98,16 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tron1/";
+            },},{id: "projects-ur5",
+          title: 'UR5',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ur5/";
+            },},{id: "projects-yumi",
+          title: 'Yumi',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/yumi/";
             },},{
         id: 'social-linkedin',
         title: 'LinkedIn',
