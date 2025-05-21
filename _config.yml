@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name:
-middle_name:
-last_name: Computational Robotics Lab
+first_name: Robotic Projects
+middle_name: in
+last_name: CRL
 contact_note: >
   Please feel free to contact us from crl(dot)ethz(dot)ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
