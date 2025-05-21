@@ -16,11 +16,68 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-robots",
+          title: "robots",
+          description: "A growing collection of the robots in our lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-a1",
+          title: 'A1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/a1/";
+            },},{id: "projects-adam",
+          title: 'Adam',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/adam/";
+            },},{id: "projects-aliengo",
+          title: 'Aliengo',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aliengo/";
+            },},{id: "projects-b2",
+          title: 'B2',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/b2/";
+            },},{id: "projects-g1",
+          title: 'G1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/g1/";
+            },},{id: "projects-go1",
+          title: 'Go1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/go1/";
+            },},{id: "projects-go2",
+          title: 'Go2',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/go2/";
+            },},{id: "projects-laikago",
+          title: 'Laikago',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/laikago/";
+            },},{id: "projects-spot",
+          title: 'Spot',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/spot/";
+            },},{id: "projects-tron1",
+          title: 'TRON1',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tron1/";
             },},{
         id: 'social-linkedin',
         title: 'LinkedIn',
