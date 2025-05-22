@@ -23,91 +23,86 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/robots/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-a1",
+        },{id: "projects-a1",
           title: 'A1',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/a1/";
+              window.location.href = "/robots/a1/";
             },},{id: "projects-adam",
           title: 'Adam',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/adam/";
+              window.location.href = "/robots/adam/";
             },},{id: "projects-aliengo",
           title: 'Aliengo',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/aliengo/";
+              window.location.href = "/robots/aliengo/";
             },},{id: "projects-aloha-v1",
           title: 'Aloha V1',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/aloha/";
+              window.location.href = "/robots/aloha/";
             },},{id: "projects-b2",
           title: 'B2',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/b2/";
+              window.location.href = "/robots/b2/";
             },},{id: "projects-franka",
           title: 'Franka',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/franka/";
+              window.location.href = "/robots/franka/";
             },},{id: "projects-g1",
           title: 'G1',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/g1/";
+              window.location.href = "/robots/g1/";
             },},{id: "projects-go1",
           title: 'Go1',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/go1/";
+              window.location.href = "/robots/go1/";
             },},{id: "projects-go2",
           title: 'Go2',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/go2/";
+              window.location.href = "/robots/go2/";
             },},{id: "projects-husky",
           title: 'Husky',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/husky/";
+              window.location.href = "/robots/husky/";
             },},{id: "projects-laikago",
           title: 'Laikago',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/laikago/";
+              window.location.href = "/robots/laikago/";
             },},{id: "projects-rc-car",
           title: 'RC Car',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/rccar/";
+              window.location.href = "/robots/rccar/";
             },},{id: "projects-spot",
           title: 'Spot',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/spot/";
+              window.location.href = "/robots/spot/";
             },},{id: "projects-tron1",
           title: 'TRON1',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/tron1/";
+              window.location.href = "/robots/tron1/";
             },},{id: "projects-ur5",
           title: 'UR5',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/ur5/";
+              window.location.href = "/robots/ur5/";
             },},{id: "projects-yumi",
           title: 'Yumi',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/yumi/";
+              window.location.href = "/robots/yumi/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
