@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inverse Design for Robotic Assembly via Task and Motion Planning
-date: 2025-05-21 23:26:00
+date: 2025-05-20 23:26:00
 description: inverse design for robotic assembly via task and motion planning (TAMP)
 tags: task and motion planning, robotic assembly, inverse design, co-design
 categories: planning
