@@ -9,6 +9,7 @@ This repo is based on [al-folio](https://github.com/alshedivat/al-folio) theme f
     @article{project_abbreviation,
       title={project_title},
       author={supervisor_names},
+      journal={tags_or_keywords},
       year={2025},
       abstract={short_description_of_your_project},
       pdf={example_pdf.pdf},
@@ -26,7 +27,7 @@ This repo is based on [al-folio](https://github.com/alshedivat/al-folio) theme f
           url: https://jin-cheng.me/
       ```
       Note: the last name in lowercase will be used to match the name in the bibtex file.
-
+    - `journal` (it was originally designed for journal name) is now used to store tags or keywords. You can use `,` to separate the tags. For example: `robotics, manipulation, planning`.
     - `abstract` is optional but highly recommended. It can be a short description of your project (1-2 sentences).
     - `pdf` is optional but highly recommended. You may provide more detailed description of your project in a PDF file. You can put the PDF file in the folder `assets/pdf`.
     - `website` is optional, it can be a link to [SiROP](https://www.sirop.org/) if you have already created a project there. If you don't want to publish your project on SiROP, we also provide some instructions to create a blog page on this website later.
@@ -38,7 +39,7 @@ This repo is based on [al-folio](https://github.com/alshedivat/al-folio) theme f
 1. (Optional) If you want to add a blog page for your project, you can create a new file in the `_posts` folder. The file name should be in the format `YYYY-MM-DD-project_abbreviation.md`. We also provide a template for the blog post in the `_posts` folder. You can use it as a reference. The blog post should contain the following information:
     - `layout`: should be set to `post`.
     - `title`: should be set to the title of your project.
-    - `date`: should be set to the date of your project.
+    - `date`: should be set to the date of your project. For visibility, we recommend to set it to a day before so that the page can be correctly accessed.
     - `description`: should be set to a short description of your project.
     - `tags`: should be set to the tags you want to use for your project.
     - `categories`: should be set to the category you want to use for your project.

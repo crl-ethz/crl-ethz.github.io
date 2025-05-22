@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Inverse Design for Robotic Assembly via Task and Motion Planning
-date: 2025-05-20 23:26:00
+date: 2025-05-20 10:00:00
 description: inverse design for robotic assembly via task and motion planning (TAMP)
-tags: task and motion planning, robotic assembly, inverse design, co-design
+tags: task-and-motion-planning, robotic-assembly, inverse-design, co-design
 categories: planning
 ---
 
@@ -23,7 +23,7 @@ Our goal is to develop a design optimization algorithm that optimizes a paramete
 - Validate the TAMP pipeline (“forward pass”) on a fixed design.
 - Extract gradients from the motion planning components to update design parameters.
 - Study how changes in design affect the discrete task planner and analyze implications for gradient continuity and optimization stability.
-    
+
 # Requirements
 
 - Strong interest in robotics, particularly in task and motion planning.
