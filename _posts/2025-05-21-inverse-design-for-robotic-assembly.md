@@ -10,7 +10,10 @@ categories: planning
 # Introduction
 Robots are increasingly used to assemble everything from everyday products and mechanical parts to architectural-scale structures. While humans often rely on intuition or heuristics to assess whether a design is buildable, robotic assembly presents a different challenge. The morphological and operational differences between humans and robots mean that human intuition no longer applies — a design that seems feasible to a human may be impossible for a robot to assemble.
 
-Although recent advances in robotic manipulation have significantly improved robots' physical capabilities [1], these systems typically assume a fixed task specification. In contrast, design-for-assembly settings allow for task modifications: if a design proves unassemblable, we want to understand how to alter it to make it feasible for robotic assembly — or even optimize it for robotic efficiency.
+Although recent advances in robotic manipulation have significantly improved robots' physical capabilities [1], these systems typically assume a fixed task specification. In contrast, design-for-assembly settings allow for task modifications: if a design proves unassemblable, we want to understand how to alter it to make it feasible for robotic assembly — or even optimize it for robotic efficiency (fig.1).
+
+{% include figure.liquid loading="eager" path="assets/img/publication_preview/2025_inverse_design_w_tamp.png" class="img-fluid rounded z-depth-1" %}
+*Figure 1: Schematic pipeline of the proposed inverse design for robotic assembly via task and motion planning (TAMP). The design parameters are optimized based on the objectives and constraints defined by the TAMP algorithm.*
 
 This paradigm resembles physics-informed inverse design, where design parameters are optimized using gradients derived from differentiable physics simulations (see, e.g., [2]). However, unlike PDE-based physical simulation, robotic assembly involves complex decision-making over long-horizon, sequential tasks — falling within the scope of Task and Motion Planning (TAMP) [3], which jointly reasons over "what to do" and "how to do it."
 
@@ -33,7 +36,7 @@ Our goal is to develop a design optimization algorithm that optimizes a paramete
 
 # Remarks
 
-This is a master thesis opportunity. The thesis is overseen by Prof. Dr. Stelian Coros and is supervised by Dr. Yijiang Huang and Dr. Gabriele Fadini. For further information or to apply for the thesis project, please send your CV, transcript, and a short motivation letter to: Yijiang (yijiang.huang@inf.ethz.ch) and Gabriele (gabfadini@gmail.com).
+This is a master thesis opportunity. The thesis is overseen by Prof. Dr. Stelian Coros and is supervised by Dr. Yijiang Huang and Dr. Gabriele Fadini. For further information or to apply for the thesis project, please send your CV, transcript, and a short motivation letter to: Yijiang ([yijiang.huang@inf.ethz.ch](mailto:yijiang.huang@inf.ethz.ch)) and Gabriele ([gabfadini@gmail.com](mailto:gabfadini@gmail.com)).
 
 # References
 

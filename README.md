@@ -44,14 +44,16 @@ This repo is based on [al-folio](https://github.com/alshedivat/al-folio) theme f
     - `tags`: should be set to the tags you want to use for your project.
     - `categories`: should be set to the category you want to use for your project.
 
-    An website will be automatically generated and refered with the permalink `/:project_abbreviation/`. An example website can be seen [https://crl-ethz.github.io/example/](https://crl-ethz.github.io/example/).
+    An website will be automatically generated and refered with the permalink `/project_abbreviation/`. An example website can be seen [https://crl-ethz.github.io/example/](https://crl-ethz.github.io/example/).
 
     Later, you can link this website to the bib information in the `_bibliography/papers.bib` file by adding the `website` field to your bib entry.
 
     Regarding what you can do in the `md` file, you may refer to the samples [here](https://github.com/alshedivat/al-folio/tree/main/_posts).
 
 2. Once you have created your post, you can preview the changes on `http://localhost:8080/`.
-   If you are certain that all information is correct, you can push the changes to the repository. Within a few minutes, the changes will be live on the actual website.
+   If you are certain that all information is correct, you can push the changes to the repository. Within a few minutes, the changes will be live on the actual website. Make sure you make the `date` of the post to be in the past (we suggest at least one day before), otherwise it will not be triggered to be published.
+
+   To include images in the post, use `{% include figure.liquid loading="eager" path="assets/img/publication_preview/name_of_img.png" class="img-fluid rounded z-depth-1" %}`.
 
 
 # Other useful links
