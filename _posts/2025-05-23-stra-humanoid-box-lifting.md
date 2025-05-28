@@ -29,7 +29,8 @@ This project focuses on endowing a humanoid robot, specifically [Adam from PNDbo
 - Since this ambitious project involves the full stack of robotics tools—from motion capture-based data collection, optimization- and learning-based control software, to real-world robot deployment—the student should be devoted, self-driven, and have a strong desire and persistence to explore and solve problems independently.
 
 # Remarks
-This thesis is overseen by Prof. Dr. Stelian Coros and is supervised by Jin Cheng, Dr. Yijiang Huang, and Tianxu An. For further information or to apply for the thesis project, please send your CV, transcript, and a short motivation letter to: Jin ([jin.cheng@inf.ethz.ch](mailto:jin.cheng@inf.ethz.ch)), Yijiang ([yijiang.huang@inf.ethz.ch](mailto:yijiang.huang@inf.ethz.ch)), and Tianxu ([tianxu.an@inf.ethz.ch](mailto:tianxu.an@inf.ethz.ch)).
+This is a master thesis project limited to students at ETH Zurich.
+The project is overseen by Prof. Dr. Stelian Coros and is supervised by Jin Cheng, Dr. Yijiang Huang, and Tianxu An. For further information or to apply for the thesis project, please send your CV, transcript, and a short motivation letter to: Jin ([jin.cheng@inf.ethz.ch](mailto:jin.cheng@inf.ethz.ch)), Yijiang ([yijiang.huang@inf.ethz.ch](mailto:yijiang.huang@inf.ethz.ch)), and Tianxu ([tianxu.an@inf.ethz.ch](mailto:tianxu.an@inf.ethz.ch)).
 
 # References
 [1] Lujie Yang, H. J. Terry Suh, Tong Zhao, Bernhard Paus Graesdal, Tarik Kelestemur, Jiuguang Wang, Tao Pang, and Russ Tedrake. Physics-Driven Data Generation for Contact-Rich Manipulation via Trajectory Optimization, February 2025.
