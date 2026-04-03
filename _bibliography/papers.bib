@@ -3,8 +3,19 @@
   author={Cheng,Jin},
   journal={model-predictive-control, domain-randomization, bipedal-wheeled-robots, world-models},
   year={2026},
-  pdf={DR_SMPC.pdf},
-  preview={2025_DR-SMPC.jpeg},
+  pdf={2026_DR_SMPC.pdf},
+  preview={2026_DR-SMPC.jpeg},
+  abstract={Reinforcement learning with domain randomization achieves robust sim-to-real transfer for legged robots but produces fixed policies lacking online adaptability. GPU-accelerated sampling-based MPC offers online adaptability and interpretable objectives but suffers from brittle sim-to-real transfer. This work proposes integrating domain randomization directly into the sampling-based MPC loop (DR-MPC) for robust sim-to-real transfer on the LIMX Tron1 bipedal wheeled robot, without requiring online parameter estimation or per-robot tuning. Two complementary instantiations are presented: (1) DR-MPC with physics simulation, which randomizes dynamics parameters across GPU-parallelized rollouts and selects actions via MPPI/CEM with tunable risk-sensitive cost aggregation; and (2) DR-MPC with learned surrogate dynamics, which trains a neural dynamics model conditioned on physical parameters on domain-randomized data. Key design choices including parameter selection, randomization range, cost aggregation, and sample budget allocation are ablated on velocity tracking, push recovery, slope traversal, and turning tasks.},
+  selected={true},
+}
+
+@article{ta-hrl,
+  title={Commit or React: Time-Adaptive High-Level Control for Hierarchical Humanoid Motion Skills},
+  author={Cheng,Jin},
+  journal={humanoid, hierarchical-control, motion-skills, time-adaptive-control},
+  year={2026},
+  pdf={2026_TA_HRL.pdf},
+  preview={2026_TA_HRL.png},
   abstract={Reinforcement learning with domain randomization achieves robust sim-to-real transfer for legged robots but produces fixed policies lacking online adaptability. GPU-accelerated sampling-based MPC offers online adaptability and interpretable objectives but suffers from brittle sim-to-real transfer. This work proposes integrating domain randomization directly into the sampling-based MPC loop (DR-MPC) for robust sim-to-real transfer on the LIMX Tron1 bipedal wheeled robot, without requiring online parameter estimation or per-robot tuning. Two complementary instantiations are presented: (1) DR-MPC with physics simulation, which randomizes dynamics parameters across GPU-parallelized rollouts and selects actions via MPPI/CEM with tunable risk-sensitive cost aggregation; and (2) DR-MPC with learned surrogate dynamics, which trains a neural dynamics model conditioned on physical parameters on domain-randomized data. Key design choices including parameter selection, randomization range, cost aggregation, and sample budget allocation are ablated on velocity tracking, push recovery, slope traversal, and turning tasks.},
   selected={true},
 }
