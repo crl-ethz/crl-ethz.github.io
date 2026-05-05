@@ -152,3 +152,15 @@ range of domains, including personal robotics,
 manufacturing, and fulfillment.},
   selected={true},
 }
+
+
+@article{ta-hrl,
+  title={Commit or React: Time-Adaptive High-Level Control for Hierarchical Humanoid Motion Skills},
+  author={Cheng,Jin and An,Tianxu},
+  journal={humanoid, hierarchical-control, motion-skills, time-adaptive-control},
+  year={2026},
+  pdf={2026_TA_HRL.pdf},
+  preview={2026_TA_HRL.png},
+  abstract={Hierarchical humanoid controllers pair a high-level (HL) policy with a library of pre-trained low-level motion skills, but universally assume a fixed HL decision frequency. This assumption is structurally incompatible with the heterogeneous execution durations of athletic motion: a recovery step lasts ~150 ms while a tennis forehand demands ~1.8 s of uninterrupted commitment. Fixed-frequency HL policies fail in one of two ways—operating too slowly, they miss reaction windows; too quickly, they interrupt physically committed motions mid-execution. We address this by formulating the HL as a Semi-Markov Decision Process that outputs (skill_id, τ) pairs, where τ is a learned per-skill commitment duration. The frozen LL skill runs uninterrupted for τ while the HL remains dormant, trained end-to-end with PPO under SMDP-adjusted TD targets. We validate on athletic tasks—hurdling, parkour, tennis—that require both fast reactivity and sustained commitment within the same episode, and deploy on a physical Unitree G1.},
+  selected={true},
+}
